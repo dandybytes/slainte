@@ -1,0 +1,782 @@
+[
+    {
+        "id": "vxQzSS",
+        "name": "Wally",
+        "nameDisplay": "Wally",
+        "abv": "7",
+        "ibu": "70",
+        "styleId": 30,
+        "isRetired": "N",
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2017-02-06 16:04:13",
+        "updateDate": "2018-11-02 02:15:14",
+        "style": {
+            "id": 30,
+            "categoryId": 3,
+            "category": {
+                "id": 3,
+                "name": "North American Origin Ales",
+                "createDate": "2012-03-21 20:06:45"
+            },
+            "name": "American-Style India Pale Ale",
+            "shortName": "American IPA",
+            "description": "American-style India pale ales are perceived to have medium-high to intense hop bitterness, flavor and aroma with medium-high alcohol content. The style is further characterized by floral, fruity, citrus-like, piney, resinous, or sulfur-like American-variety hop character. Note that one or more of these American-variety hop characters is the perceived end, but the hop characters may be a result of the skillful use of hops of other national origins. The use of water with high mineral content results in a crisp, dry beer. This pale gold to deep copper-colored ale has a full, flowery hop aroma and may have a strong hop flavor (in addition to the perception of hop bitterness). India pale ales possess medium maltiness which contributes to a medium body. Fruity-ester flavors and aromas are moderate to very strong. Diacetyl can be absent or may be perceived at very low levels. Chill and/or hop haze is allowable at cold temperatures. (English and citrus-like American hops are considered enough of a distinction justifying separate American-style IPA and English-style IPA categories or subcategories. Hops of other origins may be used for bitterness or approximating traditional American or English character. See English-style India Pale Ale",
+            "ibuMin": "50",
+            "ibuMax": "70",
+            "abvMin": "6.3",
+            "abvMax": "7.5",
+            "srmMin": "6",
+            "srmMax": "14",
+            "ogMin": "1.06",
+            "fgMin": "1.012",
+            "fgMax": "1.018",
+            "createDate": "2012-03-21 20:06:45",
+            "updateDate": "2015-04-07 15:26:37"
+        },
+        "breweries": [
+            {
+                "id": "DifSi4",
+                "name": "Wachusett Brewing Company",
+                "nameShortDisplay": "Wachusett",
+                "status": "verified",
+                "statusDisplay": "Verified",
+                "createDate": "2012-01-03 02:42:12",
+                "updateDate": "2018-11-02 02:15:01",
+                "isInBusiness": "Y",
+                "isVerified": "N",
+                "locations": [
+                    {
+                        "id": "NbGMT2",
+                        "name": "Main Brewery",
+                        "streetAddress": "175 State Road East",
+                        "locality": "Westminster",
+                        "region": "Massachusetts",
+                        "postalCode": "01473",
+                        "phone": "978-874-9965",
+                        "website": "http://www.wachusettbrew.com/",
+                        "isPrimary": "Y",
+                        "inPlanning": "N",
+                        "isClosed": "N",
+                        "openToPublic": "Y",
+                        "locationType": "brewpub",
+                        "locationTypeDisplay": "Brewpub",
+                        "countryIsoCode": "US",
+                        "yearOpened": "1994",
+                        "status": "verified",
+                        "statusDisplay": "Verified",
+                        "createDate": "2012-01-03 02:42:12",
+                        "updateDate": "2018-11-02 02:14:56",
+                        "hoursOfOperationExplicit": {
+                            "thu": [
+                                {
+                                    "startTime": "12:00pm",
+                                    "endTime": "8:00pm"
+                                }
+                            ],
+                            "fri": [
+                                {
+                                    "startTime": "12:00pm",
+                                    "endTime": "10:00pm"
+                                }
+                            ],
+                            "sat": [
+                                {
+                                    "startTime": "12:00pm",
+                                    "endTime": "10:00pm"
+                                }
+                            ],
+                            "sun": [
+                                {
+                                    "startTime": "12:00pm",
+                                    "endTime": "6:00pm"
+                                }
+                            ],
+                            "mon": [
+                                {
+                                    "startTime": "12:00pm",
+                                    "endTime": "8:00pm"
+                                }
+                            ],
+                            "tue": [
+                                {
+                                    "startTime": "12:00pm",
+                                    "endTime": "8:00pm"
+                                }
+                            ],
+                            "wed": [
+                                {
+                                    "startTime": "12:00pm",
+                                    "endTime": "8:00pm"
+                                }
+                            ]
+                        },
+                        "hoursOfOperationExplicitString": "thu-12:00pm-8:00pm,fri-12:00pm-10:00pm,sat-12:00pm-10:00pm,sun-12:00pm-6:00pm,mon-12:00pm-8:00pm,tue-12:00pm-8:00pm,wed-12:00pm-8:00pm",
+                        "country": {
+                            "isoCode": "US",
+                            "name": "UNITED STATES",
+                            "displayName": "United States",
+                            "isoThree": "USA",
+                            "numberCode": 840,
+                            "createDate": "2012-01-03 02:41:33"
+                        }
+                    },
+                    {
+                        "id": "sQW1Zu",
+                        "name": "Wachusett Brew Yard",
+                        "streetAddress": "175 State Rd E",
+                        "extendedAddress": "Wachusett Brewing Company",
+                        "locality": "WESTMINSTER",
+                        "region": "MA",
+                        "postalCode": "01473-1208",
+                        "phone": "9788749965",
+                        "website": "www.wachusettbrew.com/brewyard",
+                        "isPrimary": "N",
+                        "inPlanning": "N",
+                        "isClosed": "N",
+                        "openToPublic": "Y",
+                        "locationType": "brewpub",
+                        "locationTypeDisplay": "Brewpub",
+                        "countryIsoCode": "US",
+                        "yearOpened": "2017",
+                        "status": "deleted",
+                        "statusDisplay": "Deleted",
+                        "createDate": "2018-08-09 19:53:11",
+                        "updateDate": "2018-11-02 02:14:56",
+                        "hoursOfOperationNotes": "SUN-THUR 12PM-8PM\nFRI-SAT 12PM-10PM",
+                        "country": {
+                            "isoCode": "US",
+                            "name": "UNITED STATES",
+                            "displayName": "United States",
+                            "isoThree": "USA",
+                            "numberCode": 840,
+                            "createDate": "2012-01-03 02:41:33"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "rHCSHp",
+        "name": "Stout",
+        "nameDisplay": "Stout",
+        "abv": "5.8",
+        "ibu": "50",
+        "styleId": 42,
+        "isRetired": "N",
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2012-01-03 02:44:18",
+        "updateDate": "2018-11-02 02:15:14",
+        "style": {
+            "id": 42,
+            "categoryId": 3,
+            "category": {
+                "id": 3,
+                "name": "North American Origin Ales",
+                "createDate": "2012-03-21 20:06:45"
+            },
+            "name": "American-Style Stout",
+            "shortName": "American Stout",
+            "description": "Initial low to medium malt sweetness with a degree of caramel, chocolate and/or roasted coffee flavor with a distinctive dryroasted bitterness in the finish. Coffee-like roasted barley and roasted malt aromas are prominent. Some slight roasted malt acidity is permissible and a medium- to full-bodied mouthfeel is appropriate. Hop bitterness may be moderate to high. Hop aroma and flavor is moderate to high, often with American citrus-type and/or resiny hop character. The perception of fruity esters is low. Roasted malt/barley astringency may be low but not excessive. Diacetyl (butterscotch) should be negligible or not perceived. Head retention is excellent.",
+            "ibuMin": "35",
+            "ibuMax": "60",
+            "abvMin": "5.7",
+            "abvMax": "8.8",
+            "srmMin": "40",
+            "srmMax": "40",
+            "ogMin": "1.05",
+            "fgMin": "1.01",
+            "fgMax": "1.022",
+            "createDate": "2012-03-21 20:06:46",
+            "updateDate": "2015-04-07 15:28:43"
+        },
+        "breweries": [
+            {
+                "id": "nHLlnK",
+                "name": "Sierra Nevada Brewing Company",
+                "nameShortDisplay": "Sierra Nevada",
+                "status": "verified",
+                "statusDisplay": "Verified",
+                "createDate": "2012-01-03 02:42:08",
+                "updateDate": "2018-11-02 02:15:01",
+                "isInBusiness": "Y",
+                "isVerified": "N",
+                "locations": [
+                    {
+                        "id": "IaQrxj",
+                        "name": "Main Brewery",
+                        "streetAddress": "1075 East 20th St",
+                        "locality": "Chico",
+                        "region": "California",
+                        "postalCode": "95928",
+                        "phone": "530-893-3520",
+                        "website": "http://www.sierranevada.com/",
+                        "isPrimary": "Y",
+                        "inPlanning": "N",
+                        "isClosed": "N",
+                        "openToPublic": "Y",
+                        "locationType": "micro",
+                        "locationTypeDisplay": "Micro Brewery",
+                        "countryIsoCode": "US",
+                        "yearOpened": "1980",
+                        "status": "verified",
+                        "statusDisplay": "Verified",
+                        "createDate": "2012-01-03 02:42:08",
+                        "updateDate": "2018-11-02 02:14:56",
+                        "country": {
+                            "isoCode": "US",
+                            "name": "UNITED STATES",
+                            "displayName": "United States",
+                            "isoThree": "USA",
+                            "numberCode": 840,
+                            "createDate": "2012-01-03 02:41:33"
+                        }
+                    },
+                    {
+                        "id": "aqLvLE",
+                        "name": "Asheville",
+                        "streetAddress": "100 Sierra Nevada Way",
+                        "locality": "Fletcher",
+                        "region": "North Carolina",
+                        "postalCode": "28732",
+                        "isPrimary": "N",
+                        "inPlanning": "N",
+                        "isClosed": "N",
+                        "openToPublic": "Y",
+                        "locationType": "micro",
+                        "locationTypeDisplay": "Micro Brewery",
+                        "countryIsoCode": "US",
+                        "status": "verified",
+                        "statusDisplay": "Verified",
+                        "createDate": "2012-03-29 20:56:05",
+                        "updateDate": "2018-11-02 02:14:56",
+                        "timezoneId": "America/New_York",
+                        "country": {
+                            "isoCode": "US",
+                            "name": "UNITED STATES",
+                            "displayName": "United States",
+                            "isoThree": "USA",
+                            "numberCode": 840,
+                            "createDate": "2012-01-03 02:41:33"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Jio9R0",
+        "name": "Oatmeal Stout",
+        "nameDisplay": "Oatmeal Stout",
+        "abv": "5",
+        "ibu": "31",
+        "styleId": 21,
+        "isRetired": "N",
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2012-01-03 02:43:48",
+        "updateDate": "2018-11-02 02:15:14",
+        "style": {
+            "id": 21,
+            "categoryId": 1,
+            "category": {
+                "id": 1,
+                "name": "British Origin Ales",
+                "createDate": "2012-03-21 20:06:45"
+            },
+            "name": "Oatmeal Stout",
+            "shortName": "Oatmeal Stout",
+            "description": "Oatmeal stouts include oatmeal in their grist, resulting in a pleasant, full flavor and a smooth profile that is rich without being grainy. A roasted malt character which is caramel-like and chocolate-like should be evident - smooth and not bitter. Coffee-like roasted barley and roasted malt aromas (chocolate and nut-like) are prominent. Color is dark brown to black. Bitterness is moderate, not high. Hop flavor and aroma are optional but should not overpower the overall balance if present. This is a medium- to full- bodied beer, with minimal fruity esters. Diacetyl should be absent or at extremely low levels. Original gravity range and alcohol levels are indicative of English tradition of oatmeal stout.",
+            "ibuMin": "20",
+            "ibuMax": "40",
+            "abvMin": "3.8",
+            "abvMax": "6",
+            "srmMin": "20",
+            "srmMax": "20",
+            "ogMin": "1.038",
+            "fgMin": "1.008",
+            "fgMax": "1.02",
+            "createDate": "2012-03-21 20:06:45",
+            "updateDate": "2015-04-07 15:22:53"
+        },
+        "breweries": [
+            {
+                "id": "IImUD9",
+                "name": "Breckenridge Brewery",
+                "nameShortDisplay": "Breckenridge",
+                "status": "verified",
+                "statusDisplay": "Verified",
+                "createDate": "2012-01-03 02:41:48",
+                "updateDate": "2018-11-02 02:15:01",
+                "isInBusiness": "Y",
+                "isVerified": "N",
+                "locations": [
+                    {
+                        "id": "s0WsY3",
+                        "name": "Global Headquarters & Tasting Room",
+                        "streetAddress": "471 Kalamath Street",
+                        "locality": "Denver",
+                        "region": "Colorado",
+                        "postalCode": "80204",
+                        "phone": "303-623-2739",
+                        "website": "http://www.breckbrew.com/",
+                        "isPrimary": "Y",
+                        "inPlanning": "N",
+                        "isClosed": "N",
+                        "openToPublic": "Y",
+                        "locationType": "production",
+                        "locationTypeDisplay": "Production Facility",
+                        "countryIsoCode": "US",
+                        "yearOpened": "1990",
+                        "status": "verified",
+                        "statusDisplay": "Verified",
+                        "createDate": "2012-01-03 02:41:48",
+                        "updateDate": "2018-11-02 02:14:56",
+                        "timezoneId": "America/Denver",
+                        "country": {
+                            "isoCode": "US",
+                            "name": "UNITED STATES",
+                            "displayName": "United States",
+                            "isoThree": "USA",
+                            "numberCode": 840,
+                            "createDate": "2012-01-03 02:41:33"
+                        }
+                    },
+                    {
+                        "id": "4nwOub",
+                        "name": "Breckenridge Brewery & Pub",
+                        "streetAddress": "600 South Main Street",
+                        "locality": "Breckenridge",
+                        "region": "Colorado",
+                        "postalCode": "80424",
+                        "phone": "970-453-1550",
+                        "website": "http://www.breckbrewpub.com/",
+                        "isPrimary": "N",
+                        "inPlanning": "N",
+                        "isClosed": "N",
+                        "openToPublic": "Y",
+                        "locationType": "brewpub",
+                        "locationTypeDisplay": "Brewpub",
+                        "countryIsoCode": "US",
+                        "status": "verified",
+                        "statusDisplay": "Verified",
+                        "createDate": "2014-03-17 10:34:20",
+                        "updateDate": "2018-11-02 02:14:56",
+                        "timezoneId": "America/Denver",
+                        "country": {
+                            "isoCode": "US",
+                            "name": "UNITED STATES",
+                            "displayName": "United States",
+                            "isoThree": "USA",
+                            "numberCode": 840,
+                            "createDate": "2012-01-03 02:41:33"
+                        }
+                    },
+                    {
+                        "id": "h7fD42",
+                        "name": "Breck on Blake",
+                        "streetAddress": "2220 Blake Street",
+                        "locality": "Denver",
+                        "region": "Colorado",
+                        "postalCode": "80205",
+                        "phone": "303-297-3644",
+                        "website": "http://www.breckbrew.com/food/breckenridge-colorado-craft",
+                        "isPrimary": "N",
+                        "inPlanning": "N",
+                        "isClosed": "Y",
+                        "openToPublic": "N",
+                        "locationType": "restaurant",
+                        "locationTypeDisplay": "Restaurant/Ale House",
+                        "countryIsoCode": "US",
+                        "status": "verified",
+                        "statusDisplay": "Verified",
+                        "createDate": "2014-03-17 10:35:02",
+                        "updateDate": "2018-11-02 02:14:56",
+                        "timezoneId": "America/Denver",
+                        "country": {
+                            "isoCode": "US",
+                            "name": "UNITED STATES",
+                            "displayName": "United States",
+                            "isoThree": "USA",
+                            "numberCode": 840,
+                            "createDate": "2012-01-03 02:41:33"
+                        }
+                    },
+                    {
+                        "id": "JRO1DT",
+                        "name": "The Ale House, Grand Junction",
+                        "streetAddress": "2531 North 12th Street",
+                        "locality": "Grand Junction",
+                        "region": "Colorado",
+                        "postalCode": "81501",
+                        "phone": "970-242-7253",
+                        "website": "http://www.breckbrew.com/food/the-ale-house-grand-junction",
+                        "isPrimary": "N",
+                        "inPlanning": "N",
+                        "isClosed": "N",
+                        "openToPublic": "Y",
+                        "locationType": "restaurant",
+                        "locationTypeDisplay": "Restaurant/Ale House",
+                        "countryIsoCode": "US",
+                        "status": "verified",
+                        "statusDisplay": "Verified",
+                        "createDate": "2014-03-17 10:35:57",
+                        "updateDate": "2018-11-02 02:14:56",
+                        "country": {
+                            "isoCode": "US",
+                            "name": "UNITED STATES",
+                            "displayName": "United States",
+                            "isoThree": "USA",
+                            "numberCode": 840,
+                            "createDate": "2012-01-03 02:41:33"
+                        }
+                    },
+                    {
+                        "id": "vl6pMu",
+                        "name": "The Ale House at Amato's,  Denver",
+                        "streetAddress": "2501 16th St",
+                        "locality": "Denver",
+                        "region": "Colorado",
+                        "postalCode": "80211",
+                        "phone": "303-433-9734",
+                        "website": "http://www.breckbrew.com/food/ale-house-amatos",
+                        "isPrimary": "N",
+                        "inPlanning": "N",
+                        "isClosed": "N",
+                        "openToPublic": "Y",
+                        "locationType": "restaurant",
+                        "locationTypeDisplay": "Restaurant/Ale House",
+                        "countryIsoCode": "US",
+                        "status": "verified",
+                        "statusDisplay": "Verified",
+                        "createDate": "2014-03-17 10:36:30",
+                        "updateDate": "2018-11-02 02:14:56",
+                        "country": {
+                            "isoCode": "US",
+                            "name": "UNITED STATES",
+                            "displayName": "United States",
+                            "isoThree": "USA",
+                            "numberCode": 840,
+                            "createDate": "2012-01-03 02:41:33"
+                        }
+                    },
+                    {
+                        "id": "EOsuuz",
+                        "name": "Breckenridge Brewery & Farmhouse",
+                        "streetAddress": "6775 S. Santa Fe",
+                        "locality": "Littleton",
+                        "region": "Colorado",
+                        "postalCode": "80120",
+                        "phone": "303.623.2739",
+                        "website": "http://www.breckbrew.com",
+                        "isPrimary": "N",
+                        "inPlanning": "Y",
+                        "isClosed": "Y",
+                        "openToPublic": "N",
+                        "locationType": "production",
+                        "locationTypeDisplay": "Production Facility",
+                        "countryIsoCode": "US",
+                        "status": "verified",
+                        "statusDisplay": "Verified",
+                        "createDate": "2014-09-10 15:03:39",
+                        "updateDate": "2018-11-02 02:14:56",
+                        "hoursOfOperationNotes": "Opening Summer 2015\r\nVisit:  www.breckbrew.com/farmhousebrewery",
+                        "timezoneId": "America/Denver",
+                        "country": {
+                            "isoCode": "US",
+                            "name": "UNITED STATES",
+                            "displayName": "United States",
+                            "isoThree": "USA",
+                            "numberCode": 840,
+                            "createDate": "2012-01-03 02:41:33"
+                        }
+                    },
+                    {
+                        "id": "kDDWiR",
+                        "name": "Main Brewery",
+                        "streetAddress": "2990 Brewery Lane",
+                        "locality": "Littleton",
+                        "region": "Colorado",
+                        "postalCode": "80120",
+                        "phone": "303.803.1380",
+                        "website": "http://www.breckbrew.com/farmhouse",
+                        "isPrimary": "N",
+                        "inPlanning": "N",
+                        "isClosed": "N",
+                        "openToPublic": "Y",
+                        "locationType": "micro",
+                        "locationTypeDisplay": "Micro Brewery",
+                        "countryIsoCode": "US",
+                        "status": "verified",
+                        "statusDisplay": "Verified",
+                        "createDate": "2015-06-17 03:32:00",
+                        "updateDate": "2018-11-02 02:14:56",
+                        "hoursOfOperationNotes": "Everyday @ 11am",
+                        "timezoneId": "America/Denver",
+                        "country": {
+                            "isoCode": "US",
+                            "name": "UNITED STATES",
+                            "displayName": "United States",
+                            "isoThree": "USA",
+                            "numberCode": 840,
+                            "createDate": "2012-01-03 02:41:33"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "5ErplG",
+        "name": "Tater Ridge - Beer Camp Across America",
+        "nameDisplay": "Tater Ridge - Beer Camp Across America (2014)",
+        "abv": "7",
+        "ibu": "35",
+        "styleId": 8,
+        "isRetired": "N",
+        "year": 2014,
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2014-05-08 11:50:11",
+        "updateDate": "2018-11-02 02:15:14",
+        "style": {
+            "id": 8,
+            "categoryId": 1,
+            "category": {
+                "id": 1,
+                "name": "British Origin Ales",
+                "createDate": "2012-03-21 20:06:45"
+            },
+            "name": "Scottish-Style Heavy Ale",
+            "shortName": "Scottish Heavy",
+            "description": "Scottish heavy ale is moderate in strength and dominated by a smooth, sweet maltiness balanced with low, but perceptible, hop bitterness. Hop flavor or aroma should not be perceived. Scottish heavy ale will have a medium degree of malty, caramel-like, soft and chewy character in flavor and mouthfeel. It has medium body, and fruity esters are very low, if evident. Yeast characters such as diacetyl (butterscotch) and sulfuriness are acceptable at very low levels. The color will range from golden amber to deep brown. Bottled versions of this traditional draft beer may contain higher amounts of carbon dioxide than is typical for mildly carbonated draft versions. Chill haze is acceptable at low temperatures. Though there is little evidence suggesting that traditionally made Scottish-style heavy ales exhibited peat smoke character, the current marketplace offers many Scottish-style heavy ales with peat or smoke character present at low to medium levels. Thus a peaty/smoky character may be evident at low to medium levels (ales with medium-high or higher smoke character would be considered a smoke flavored beer and considered in another category). Scottish-style heavy ales may be split into two subcategories: Traditional (no smoke character) and Peated (low level of peat smoke character).",
+            "ibuMin": "12",
+            "ibuMax": "20",
+            "abvMin": "3.5",
+            "abvMax": "4",
+            "srmMin": "10",
+            "srmMax": "19",
+            "ogMin": "1.035",
+            "fgMin": "1.01",
+            "fgMax": "1.014",
+            "createDate": "2012-03-21 20:06:45",
+            "updateDate": "2015-04-07 15:19:48"
+        },
+        "breweries": [
+            {
+                "id": "nHLlnK",
+                "name": "Sierra Nevada Brewing Company",
+                "nameShortDisplay": "Sierra Nevada",
+                "status": "verified",
+                "statusDisplay": "Verified",
+                "createDate": "2012-01-03 02:42:08",
+                "updateDate": "2018-11-02 02:15:01",
+                "isInBusiness": "Y",
+                "isVerified": "N",
+                "locations": [
+                    {
+                        "id": "IaQrxj",
+                        "name": "Main Brewery",
+                        "streetAddress": "1075 East 20th St",
+                        "locality": "Chico",
+                        "region": "California",
+                        "postalCode": "95928",
+                        "phone": "530-893-3520",
+                        "website": "http://www.sierranevada.com/",
+                        "isPrimary": "Y",
+                        "inPlanning": "N",
+                        "isClosed": "N",
+                        "openToPublic": "Y",
+                        "locationType": "micro",
+                        "locationTypeDisplay": "Micro Brewery",
+                        "countryIsoCode": "US",
+                        "yearOpened": "1980",
+                        "status": "verified",
+                        "statusDisplay": "Verified",
+                        "createDate": "2012-01-03 02:42:08",
+                        "updateDate": "2018-11-02 02:14:56",
+                        "country": {
+                            "isoCode": "US",
+                            "name": "UNITED STATES",
+                            "displayName": "United States",
+                            "isoThree": "USA",
+                            "numberCode": 840,
+                            "createDate": "2012-01-03 02:41:33"
+                        }
+                    },
+                    {
+                        "id": "aqLvLE",
+                        "name": "Asheville",
+                        "streetAddress": "100 Sierra Nevada Way",
+                        "locality": "Fletcher",
+                        "region": "North Carolina",
+                        "postalCode": "28732",
+                        "isPrimary": "N",
+                        "inPlanning": "N",
+                        "isClosed": "N",
+                        "openToPublic": "Y",
+                        "locationType": "micro",
+                        "locationTypeDisplay": "Micro Brewery",
+                        "countryIsoCode": "US",
+                        "status": "verified",
+                        "statusDisplay": "Verified",
+                        "createDate": "2012-03-29 20:56:05",
+                        "updateDate": "2018-11-02 02:14:56",
+                        "timezoneId": "America/New_York",
+                        "country": {
+                            "isoCode": "US",
+                            "name": "UNITED STATES",
+                            "displayName": "United States",
+                            "isoThree": "USA",
+                            "numberCode": 840,
+                            "createDate": "2012-01-03 02:41:33"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "a9reE2",
+        "name": "Waldo's Special Ale",
+        "nameDisplay": "Waldo's Special Ale",
+        "abv": "11.5",
+        "ibu": "84",
+        "styleId": 31,
+        "isRetired": "N",
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2013-05-21 01:56:44",
+        "updateDate": "2018-11-02 02:15:14",
+        "style": {
+            "id": 31,
+            "categoryId": 3,
+            "category": {
+                "id": 3,
+                "name": "North American Origin Ales",
+                "createDate": "2012-03-21 20:06:45"
+            },
+            "name": "Imperial or Double India Pale Ale",
+            "shortName": "Imperial IPA",
+            "description": "Imperial or Double India Pale Ales have intense hop bitterness, flavor and aroma. Alcohol content is medium-high to high and notably evident. They range from deep golden to medium copper in color. The style may use any variety of hops. Though the hop character is intense it's balanced with complex alcohol flavors, moderate to high fruity esters and medium to high malt character. Hop character should be fresh and lively and should not be harsh in quality. The use of large amounts of hops may cause a degree of appropriate hop haze. Imperial or Double India Pale Ales have medium-high to full body. Diacetyl should not be perceived. The intention of this style of beer is to exhibit the fresh and bright character of hops. Oxidative character and aged character should not be present.",
+            "ibuMin": "65",
+            "ibuMax": "100",
+            "abvMin": "7.5",
+            "abvMax": "10.5",
+            "srmMin": "5",
+            "srmMax": "13",
+            "ogMin": "1.075",
+            "fgMin": "1.012",
+            "fgMax": "1.02",
+            "createDate": "2012-03-21 20:06:45",
+            "updateDate": "2015-04-07 15:26:46"
+        },
+        "breweries": [
+            {
+                "id": "nLsoQ9",
+                "name": "Lagunitas Brewing Company",
+                "nameShortDisplay": "Lagunitas",
+                "status": "verified",
+                "statusDisplay": "Verified",
+                "createDate": "2012-01-03 02:42:00",
+                "updateDate": "2018-11-02 02:15:01",
+                "isInBusiness": "Y",
+                "isVerified": "N",
+                "locations": [
+                    {
+                        "id": "C0zPjd",
+                        "name": "Main Brewery",
+                        "streetAddress": "1280 North McDowell Boulevard",
+                        "locality": "Petaluma",
+                        "region": "California",
+                        "postalCode": "94954",
+                        "phone": "707 769-4495",
+                        "website": "http://www.lagunitas.com/",
+                        "isPrimary": "N",
+                        "inPlanning": "N",
+                        "isClosed": "N",
+                        "openToPublic": "Y",
+                        "locationType": "micro",
+                        "locationTypeDisplay": "Micro Brewery",
+                        "countryIsoCode": "US",
+                        "yearOpened": "1993",
+                        "status": "verified",
+                        "statusDisplay": "Verified",
+                        "createDate": "2012-01-03 02:42:00",
+                        "updateDate": "2018-11-02 02:14:56",
+                        "hoursOfOperationNotes": "Wed thru Friday 3:00-9:00.\r\nSat & Sun: 1:00-7:00",
+                        "country": {
+                            "isoCode": "US",
+                            "name": "UNITED STATES",
+                            "displayName": "United States",
+                            "isoThree": "USA",
+                            "numberCode": 840,
+                            "createDate": "2012-01-03 02:41:33"
+                        }
+                    },
+                    {
+                        "id": "g2d9B7",
+                        "name": "Chicago",
+                        "streetAddress": "2607 West 17th St.",
+                        "locality": "Chicago",
+                        "region": "Illinois",
+                        "postalCode": "60608",
+                        "phone": "(773) 522-2503",
+                        "website": "http://lagunitas.com/",
+                        "isPrimary": "N",
+                        "inPlanning": "N",
+                        "isClosed": "N",
+                        "openToPublic": "Y",
+                        "locationType": "tasting",
+                        "locationTypeDisplay": "Tasting Room",
+                        "countryIsoCode": "US",
+                        "status": "verified",
+                        "statusDisplay": "Verified",
+                        "createDate": "2014-08-25 12:10:03",
+                        "updateDate": "2018-11-02 02:14:56",
+                        "timezoneId": "America/Chicago",
+                        "country": {
+                            "isoCode": "US",
+                            "name": "UNITED STATES",
+                            "displayName": "United States",
+                            "isoThree": "USA",
+                            "numberCode": 840,
+                            "createDate": "2012-01-03 02:41:33"
+                        }
+                    },
+                    {
+                        "id": "s38mA2",
+                        "name": "Charleston Taproom & Beer Sanctuary",
+                        "streetAddress": "161 E Bay St.",
+                        "locality": "Charleston",
+                        "region": "South Carolina",
+                        "postalCode": "29401",
+                        "phone": "843-853-4677",
+                        "isPrimary": "Y",
+                        "inPlanning": "N",
+                        "isClosed": "Y",
+                        "openToPublic": "N",
+                        "locationType": "tasting",
+                        "locationTypeDisplay": "Tasting Room",
+                        "countryIsoCode": "US",
+                        "status": "verified",
+                        "statusDisplay": "Verified",
+                        "createDate": "2017-06-08 20:31:56",
+                        "updateDate": "2018-11-02 02:14:56",
+                        "timezoneId": "America/New_York",
+                        "country": {
+                            "isoCode": "US",
+                            "name": "UNITED STATES",
+                            "displayName": "United States",
+                            "isoThree": "USA",
+                            "numberCode": 840,
+                            "createDate": "2012-01-03 02:41:33"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]
