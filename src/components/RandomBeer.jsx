@@ -1,5 +1,8 @@
 import React, {useEffect, useState} from 'react';
 
+import Header from './Header';
+import Content from './Content';
+
 import {fetchRandomBeer} from '../services/fetch';
 
 const placeholderImageUrl = 'https://touch.daft.ie/static/images/fallbacks/no-image-size740x480.jpg';
@@ -27,14 +30,8 @@ const RandomBeer = () => {
 
     return (
         <>
-            <header>
-                <h1>The Random Beer App</h1>
-                <button onClick={() => getRandomBeerData()}>Show Another Beer</button>
-            </header>
-            <p>name: {name}</p>
-            <p>description: {description}</p>
-            <p>brewery: {brewery}</p>
-            <img src={label} alt={name} />
+            <Header handleButtonClick={getRandomBeerData} />
+            <Content name={name} description={description} brewery={brewery} label={label} />
         </>
     );
 };
