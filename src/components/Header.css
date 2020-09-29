@@ -1,9 +1,72 @@
+@font-face {
+    font-family: 'Northead';
+    src: local('Northead'), url(../fonts/Northead.ttf) format('truetype');
+}
+
 .header {
-    padding: 30px 0 15px;
+    padding: 15px 0 15px;
+}
+
+.title,
+.subtitle {
+    margin: 0;
+    color: white;
+    font-family: 'Northead';
 }
 
 .title {
-    margin: 0;
     padding: 15px 0;
-    font-size: 1.7rem;
+    font-size: 4rem;
+    letter-spacing: 0.75rem;
+}
+
+.subtitle {
+    padding: 8px 0;
+    font-size: 2rem;
+    letter-spacing: 0.35rem;
+}
+
+.button {
+    margin: 30px 15px;
+    padding: 10px 20px;
+    outline: none;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+    border: 2px solid #f09000;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #f09000;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.button:hover {
+    border-color: transparent;
+    background-color: #f09000;
+    color: #362a2a;
+}
+
+.button:active {
+    box-shadow: none;
+}
+
+@media only screen and (min-width: 580px) {
+    .title {
+        font-size: 5rem;
+    }
+
+    .subtitle {
+        font-size: 3rem;
+    }
+    .button {
+        margin: 30px;
+        padding: 1rem 2rem;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .button {
+        font-size: 1rem;
+    }
 }

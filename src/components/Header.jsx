@@ -5,9 +5,10 @@ import './Header.css';
 const Header = ({handleButtonClick}) => {
     return (
         <header className='header'>
-            <h1 className='title'>The Random 🍺 App</h1>
+            <h1 className='title'>Slainte</h1>
+            <h2 className='subtitle'>the random 🍺 app</h2>
             <button className='button' onClick={handleButtonClick}>
-                Show Another Beer
+                Pour me another one!
             </button>
         </header>
     );
