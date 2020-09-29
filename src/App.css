@@ -8,6 +8,10 @@
     border-radius: 5px;
 }
 
+.app a {
+    color: #f09000;
+}
+
 @media only screen and (min-width: 580px) {
     .app {
         padding: 40px;

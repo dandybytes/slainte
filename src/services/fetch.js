@@ -20,9 +20,10 @@ export const fetchRandomBeer = async () => {
 
         const beerName = data?.name;
         const beerDescription = data?.style?.description;
-        const beerBrewery = data?.breweries?.[0]?.name;
+        const breweryName = data?.breweries?.[0]?.name;
+        const breweryId = data?.breweries?.[0]?.id;
 
-        if (beerName && beerDescription && beerBrewery) return {beerName, beerDescription, beerBrewery};
+        if (beerName && beerDescription && breweryName) return {beerName, beerDescription, breweryName, breweryId};
     } catch (error) {
         console.error('ERROR: fetching random beer from the API failed: ', error);
     }
