@@ -1,11 +1,23 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Link} from 'react-router-dom';
+
+import {useRandomBeerContext} from '../contexts/randomBeerContext';
 
 import {abridgeText} from '../utils/format';
 
 import './Content.css';
 
-const Content = ({name, description, breweryName, breweryId, label}) => {
+const Content = () => {
+    const {name, description, label, breweryName, breweryId, fetchRandomBeerData} = useRandomBeerContext();
+
+    useEffect(() => {
+        fetchRandomBeerData();
+    }, []);
+
+    if (!name || !description || !breweryName || !breweryId) {
+        return <p>Loading...</p>;
+    }
+
     return (
         <section className='content'>
             <div className='label'>

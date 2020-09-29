@@ -1,8 +1,10 @@
 import React from 'react';
 
+import {RandomBeerContextProvider} from '../contexts/randomBeerContext';
+
 import './Header.css';
 
-const Header = ({handleButtonClick}) => {
+const Header = () => {
     return (
         <header className='header'>
             <h1 className='title'>Slainte</h1>
@@ -13,9 +15,9 @@ const Header = ({handleButtonClick}) => {
                 </span>{' '}
                 app
             </h2>
-            <button className='button' onClick={handleButtonClick}>
-                Pour me another one!
-            </button>
+            <RandomBeerContextProvider>
+                <button className='button'>Pour me another one!</button>
+            </RandomBeerContextProvider>
         </header>
     );
 };
