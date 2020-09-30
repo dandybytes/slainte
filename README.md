@@ -12,19 +12,19 @@ A [React](https://reactjs.org/) app that displays random beer & brewery informat
 
 ### Instructions:
 
-1. Install the dependencies by executing the following CLI command in the project's root directory:
+1) Install the dependencies by executing the following CLI command in the project's root directory:
 
 `npm i`
 
-2. Create a file in the root directory of the project with the following name:
+2) Create a file in the root directory of the project with the following name:
 
 `.env.local`
 
-3. Create the following variable and paste a valid Brewery DB API key instead of the ellipsis:
+3) In the file created above, add the following variable and paste a valid Brewery DB API key instead of the ellipsis:
 
 `REACT_APP_BREWERY_DB_API_KEY = '...'`
 
-4. With all the dependencies installed and a valid API key provided, you can now run the following command in the root directory of the project to start the app using a local server:
+4) With all the dependencies installed and a valid API key provided, you can now run the following command in the root directory of the project to start the app using a local server:
 
 `npm start`
 
