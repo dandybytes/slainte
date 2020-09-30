@@ -1,21 +1,37 @@
-import React, {useState, useEffect} from 'react';
+import React, {useEffect} from 'react';
 import {Link} from 'react-router-dom';
 
-import Content from '../Content';
+import {useBreweryDetailsContext} from '../../contexts/breweryDetailsContext';
 
-import {placeholderImageUrl} from '../../data/urls';
+import './BreweryDetailsPage.css';
 
-const BreweryDetailsPage = () => {
-    const [name, setName] = useState('');
-    const [description, setDescription] = useState('');
-    const [label, setLabel] = useState(placeholderImageUrl);
-    const [brewery, setBrewery] = useState('');
+const BreweryDetailsPage = ({match}) => {
+    const queryParamID = match.params.id;
+    const {
+        breweryID,
+        breweryName,
+        breweryDescription,
+        breweryFoundationYear,
+        breweryImage,
+        breweryWebsite,
+        updateBreweryDetailsInContext
+    } = useBreweryDetailsContext();
+
+    useEffect(() => {
+        if (!breweryID || breweryID !== queryParamID) updateBreweryDetailsInContext(queryParamID);
+    }, [queryParamID, breweryID, updateBreweryDetailsInContext]);
 
     return (
-        <>
-            <Link to='/'>&#8630; back to random beer details</Link>
-            <Content name={name} description={description} brewery={brewery} label={label} />
-        </>
+        <section className='brewery-details'>
+            <Link className='back' to='/'>
+                &#8630; back to random beer
+            </Link>
+            <img className='brewery-logo' src={breweryImage} alt={`${breweryName} brewery logo`} />
+            <h2 className='name'>{breweryName}</h2>
+            <p>(established in {breweryFoundationYear})</p>
+            <a href={breweryWebsite}>{breweryWebsite}</a>
+            <p className='description'>{breweryDescription}</p>
+        </section>
     );
 };
 

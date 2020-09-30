@@ -5,14 +5,22 @@ import {useRandomBeerContext} from '../contexts/randomBeerContext';
 
 import {abridgeText} from '../utils/format';
 
-import './Content.css';
+import './RandomBeerContent.css';
 
-const Content = () => {
-    const {name, description, label, breweryName, breweryId, fetchRandomBeerData} = useRandomBeerContext();
+const RandomBeerContent = () => {
+    const {
+        beerID,
+        name,
+        description,
+        label,
+        breweryName,
+        breweryId,
+        updateRandomBeerDataInContext
+    } = useRandomBeerContext();
 
     useEffect(() => {
-        fetchRandomBeerData();
-    }, []);
+        if (!beerID || !breweryName || !breweryId) updateRandomBeerDataInContext();
+    }, [beerID, updateRandomBeerDataInContext, breweryName, breweryId]);
 
     if (!name || !description || !breweryName || !breweryId) {
         return <p>Loading...</p>;
@@ -20,7 +28,7 @@ const Content = () => {
 
     return (
         <section className='content'>
-            <div className='label'>
+            <div className='image'>
                 <img src={label} alt={name} />
             </div>
             <div className='text'>
@@ -34,4 +42,4 @@ const Content = () => {
     );
 };
 
-export default Content;
+export default RandomBeerContent;

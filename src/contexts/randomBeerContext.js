@@ -6,14 +6,16 @@ import {placeholderImageUrl} from '../data/urls';
 export const RandomBeerContext = createContext();
 
 export const RandomBeerContextProvider = ({children}) => {
+    const [beerID, setBeerID] = useState('');
     const [name, setName] = useState('');
     const [description, setDescription] = useState('');
     const [label, setLabel] = useState(placeholderImageUrl);
     const [breweryName, setBreweryName] = useState('');
     const [breweryId, setBreweryId] = useState('');
 
-    const fetchRandomBeerData = async () => {
+    const updateRandomBeerDataInContext = async () => {
         const data = await fetchRandomBeer();
+        setBeerID(data?.beerID);
         setName(data?.beerName);
         setDescription(data?.beerDescription);
         setBreweryName(data?.breweryName);
@@ -23,12 +25,13 @@ export const RandomBeerContextProvider = ({children}) => {
     return (
         <RandomBeerContext.Provider
             value={{
+                beerID,
                 name,
                 description,
                 label,
                 breweryName,
                 breweryId,
-                fetchRandomBeerData: useCallback(fetchRandomBeerData)
+                updateRandomBeerDataInContext: useCallback(updateRandomBeerDataInContext)
             }}
         >
             {children}

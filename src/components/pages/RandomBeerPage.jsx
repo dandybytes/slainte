@@ -1,19 +1,15 @@
 import React from 'react';
 
-import {RandomBeerContextProvider} from '../../contexts/randomBeerContext';
-
 import Header from '../Header';
-import Content from '../Content';
+import RandomBeerContent from '../RandomBeerContent';
 
-const RandomBeer = () => {
+const RandomBeerPage = () => {
     return (
         <>
             <Header />
-            <RandomBeerContextProvider>
-                <Content />
-            </RandomBeerContextProvider>
+            <RandomBeerContent />
         </>
     );
 };
 
-export default RandomBeer;
+export default RandomBeerPage;

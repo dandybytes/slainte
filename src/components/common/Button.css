@@ -1,0 +1,37 @@
+.button {
+    margin: 30px 15px;
+    padding: 10px 20px;
+    outline: none;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+    border: 2px solid #f09000;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #f09000;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.button:hover {
+    border-color: transparent;
+    background-color: #f09000;
+    color: #362a2a;
+}
+
+.button:active {
+    box-shadow: none;
+}
+
+@media only screen and (min-width: 580px) {
+    .button {
+        margin: 30px;
+        padding: 1rem 2rem;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .button {
+        font-size: 1rem;
+    }
+}

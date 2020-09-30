@@ -5,22 +5,21 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-template-areas:
-        'label'
+        'image'
         'text';
     grid-gap: 40px;
     color: white;
 }
 
-.label {
-    grid-area: label;
+.image {
+    grid-area: image;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.label img {
+.image img {
     max-width: 100%;
-    /* object-fit: contain; */
 }
 
 .text {
@@ -45,7 +44,7 @@
 @media only screen and (min-width: 960px) {
     .content {
         padding: 20px;
-        grid-template-areas: 'label text';
+        grid-template-areas: 'image text';
     }
 
     .text {

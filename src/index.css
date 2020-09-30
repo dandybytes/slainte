@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Northead';
+    src: local('Northead'), url(./fonts/Northead.ttf) format('truetype');
+}
+
 * {
     box-sizing: border-box;
 }

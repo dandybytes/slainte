@@ -1,23 +1,24 @@
 import React from 'react';
 
-import {RandomBeerContextProvider} from '../contexts/randomBeerContext';
+import Title from './common/Title';
+import Subtitle from './common/Subtitle';
+import Button from './common/Button';
 
 import './Header.css';
 
 const Header = () => {
     return (
         <header className='header'>
-            <h1 className='title'>Slainte</h1>
-            <h2 className='subtitle'>
+            <Title>Slainte</Title>
+            <Subtitle>
                 the random{' '}
                 <span role='img' aria-label='foaming beer glass emoticon'>
                     🍺
                 </span>{' '}
                 app
-            </h2>
-            <RandomBeerContextProvider>
-                <button className='button'>Pour me another one!</button>
-            </RandomBeerContextProvider>
+            </Subtitle>
+
+            <Button>Pour me another one!</Button>
         </header>
     );
 };

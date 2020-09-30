@@ -1,0 +1,13 @@
+.brewery-details {
+    color: white;
+}
+
+.back {
+    display: block;
+    padding: 1rem 2rem;
+}
+
+.brewery-logo {
+    max-width: 90%;
+    margin: 1rem 0;
+}
